@@ -1,12 +1,12 @@
 server:
-  port: 9093 
+  port: 9093
 
 spring:
-   datasource:
+  datasource:
     url: jdbc:h2:mem:paymentdb
     driver-class-name: org.h2.Driver
     username: sa
-    password: 
+    password:
 
   h2:
     console:
@@ -18,5 +18,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-    
+
 msg: Welcome to Payment Service
