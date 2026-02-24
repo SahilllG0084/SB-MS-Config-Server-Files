@@ -1,3 +1,4 @@
-msg = Welcome To Cart Service...!
+msg: "Welcome To Cart Service...!"
+
 server:
   port: 8989
